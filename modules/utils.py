@@ -51,7 +51,7 @@ def make_timeseries_plot(time_series_df, fig_size):
 
     plt.plot(x, file2, '.', color='red')
     plt.grid()
-    plt.title('time series for date '+ date)
+    plt.title('time series for date ' + date)
     plt.xlabel('UT time')
     plt.ylabel('seeing DIMM')
 
